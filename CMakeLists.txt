@@ -20,6 +20,7 @@ include_directories(include)
 add_library(lib
     src/arrays.cpp
     src/strings.cpp
+    src/linkedlists.cpp
 )
 
 add_executable(main
@@ -34,6 +35,7 @@ add_executable(
     tests
     tests/arrays_tests.cpp
     tests/strings_tests.cpp
+    tests/linkedlists_tests.cpp
 )
 
 target_link_libraries(
